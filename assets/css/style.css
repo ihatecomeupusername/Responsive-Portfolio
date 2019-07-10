@@ -1,0 +1,146 @@
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 5px solid #cccccc;
+}
+
+.name
+{
+    left: 18%;
+    width: 200px;
+    top: 0px;
+    text-align: center;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.contact
+{
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    right:20%;
+}
+.portfolio
+{
+    float: right;
+    right: 24%;
+    position: absolute;
+}
+
+.about
+{
+    float: right;
+    right: 29%;
+    position: absolute;
+}
+
+body
+{
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.main
+{
+    width: 960px;
+    left: 19%;
+    top: 15%;
+    position: absolute;
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+}
+
+h1.title
+{
+    color: #4aaaa5;
+}
+
+.profile_pic
+{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+}
+
+.container
+{
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+
+.text-block
+{
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    width: 300px;
+    background-color: #4aaaa5;
+    color: white;
+}
+p
+{
+    position: relative;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+textarea
+{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.field
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submit
+{
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+@media screen and (max-width: 640px)
+{
+    @import url("screen640.css");
+}
+@media screen and (max-width: 768px)
+{
+    @import url("screen768.css");
+}
+
+@media screen and (max-width: 980px)
+{
+    @import url("screen980.css");
+}
